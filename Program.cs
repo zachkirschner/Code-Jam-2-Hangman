@@ -6,8 +6,7 @@ class Program
 {
     static readonly ConsoleColor[] HangmanColors =
     {
-
-        //Defining the potential colors that can be used
+        // Defining the potential colors that can be used
         ConsoleColor.Red,
         ConsoleColor.Green,
         ConsoleColor.Blue,
@@ -18,9 +17,28 @@ class Program
 
     static void Main()
     {
-        // Array of possible words
+        bool playAgain = true;
 
-        string[] words = ["tundra", "camry", "yaris", "prius", "corolla", "sienna", "supra", "crown", "highlander", "sequoia", "venza"];
+        while (playAgain)
+        {
+            PlayGame();
+
+            Console.WriteLine("\nWould you like to play again? (y/n)");
+            string response = Console.ReadLine()?.ToLower();
+
+            if (response != "y")
+            {
+                playAgain = false;
+            }
+        }
+
+        Console.WriteLine("Thanks for playing! Goodbye!");
+    }
+
+    static void PlayGame()
+    {
+        // Array of possible words
+        string[] words = { "tundra", "camry", "yaris", "prius", "corolla", "sienna", "supra", "crown", "highlander", "sequoia", "venza" };
         var random = new Random();
         string wordToGuess = words[random.Next(words.Length)];
         var guessedLetters = new HashSet<char>();
@@ -32,6 +50,7 @@ class Program
             Console.Clear();
             DisplayHangman(incorrectGuesses);
             DisplayWord(wordToGuess, guessedLetters);
+            DisplayGuessedLetters(guessedLetters);
 
             Console.Write("\nGuess a letter: ");
             var input = Console.ReadLine()?.ToLower();
@@ -57,7 +76,7 @@ class Program
 
             guessedLetters.Add(guessedLetter);
 
-            //This adds new body parts to the hangman with each incorrect guess
+            // This adds new body parts to the hangman with each incorrect guess
             if (wordToGuess.Contains(guessedLetter))
             {
                 Console.ForegroundColor = ConsoleColor.Green;
@@ -85,8 +104,11 @@ class Program
             if (incorrectGuesses >= maxIncorrectGuesses)
             {
                 Console.Clear();
+                DisplayHangman(incorrectGuesses);  // Display the final state of the hangman
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"Game over! The word was '{wordToGuess}'.");
+                Console.WriteLine($"The word was '{wordToGuess}'.");
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Good try!");
                 Console.ResetColor();
                 break;
             }
@@ -107,13 +129,12 @@ class Program
             ConsoleColor.Magenta // 6 Right leg
         };
 
-
         Console.WriteLine("Hangman: Toyota Edition!");
-        Console.WriteLine("  ______");
-        Console.WriteLine(" /|_||_\\`.___");
-        Console.WriteLine("(   _TOYOTA_ \\");
-        Console.WriteLine("=`-(_)----(_)-'");
-
+        Console.WriteLine(@"
+  ______
+ /|_||_\\`.___
+(   _TOYOTA_ \
+=`-(_)----(_)-'");
 
         // Head
         Console.ForegroundColor = colors[1];
@@ -163,6 +184,13 @@ class Program
             else
                 Console.Write("_ ");
         }
+        Console.ResetColor();
+    }
+
+    static void DisplayGuessedLetters(HashSet<char> guessedLetters)
+    {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("\nGuessed letters: " + string.Join(", ", guessedLetters));
         Console.ResetColor();
     }
 
