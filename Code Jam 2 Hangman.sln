@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.35201.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code Jam 2 Hangman", "Code Jam 2 Hangman.csproj", "{9BC50FD8-98EF-4060-8D96-A66BF1F5EA4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BC50FD8-98EF-4060-8D96-A66BF1F5EA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC50FD8-98EF-4060-8D96-A66BF1F5EA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC50FD8-98EF-4060-8D96-A66BF1F5EA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC50FD8-98EF-4060-8D96-A66BF1F5EA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E67FA29-13CA-4152-A652-E7A2EEB6D869}
+	EndGlobalSection
+EndGlobal

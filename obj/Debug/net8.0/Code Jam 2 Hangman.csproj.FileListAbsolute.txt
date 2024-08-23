@@ -1,0 +1,14 @@
+C:\Users\jmfyexl\OneDrive - JM Family Enterprises\Desktop\ITS ACADEMY REPOS\Code Jam 2 Hangman\bin\Debug\net8.0\Code Jam 2 Hangman.exe
+C:\Users\jmfyexl\OneDrive - JM Family Enterprises\Desktop\ITS ACADEMY REPOS\Code Jam 2 Hangman\bin\Debug\net8.0\Code Jam 2 Hangman.deps.json
+C:\Users\jmfyexl\OneDrive - JM Family Enterprises\Desktop\ITS ACADEMY REPOS\Code Jam 2 Hangman\bin\Debug\net8.0\Code Jam 2 Hangman.runtimeconfig.json
+C:\Users\jmfyexl\OneDrive - JM Family Enterprises\Desktop\ITS ACADEMY REPOS\Code Jam 2 Hangman\bin\Debug\net8.0\Code Jam 2 Hangman.dll
+C:\Users\jmfyexl\OneDrive - JM Family Enterprises\Desktop\ITS ACADEMY REPOS\Code Jam 2 Hangman\bin\Debug\net8.0\Code Jam 2 Hangman.pdb
+C:\Users\jmfyexl\OneDrive - JM Family Enterprises\Desktop\ITS ACADEMY REPOS\Code Jam 2 Hangman\obj\Debug\net8.0\Code Jam 2 Hangman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmfyexl\OneDrive - JM Family Enterprises\Desktop\ITS ACADEMY REPOS\Code Jam 2 Hangman\obj\Debug\net8.0\Code Jam 2 Hangman.AssemblyInfoInputs.cache
+C:\Users\jmfyexl\OneDrive - JM Family Enterprises\Desktop\ITS ACADEMY REPOS\Code Jam 2 Hangman\obj\Debug\net8.0\Code Jam 2 Hangman.AssemblyInfo.cs
+C:\Users\jmfyexl\OneDrive - JM Family Enterprises\Desktop\ITS ACADEMY REPOS\Code Jam 2 Hangman\obj\Debug\net8.0\Code Jam 2 Hangman.csproj.CoreCompileInputs.cache
+C:\Users\jmfyexl\OneDrive - JM Family Enterprises\Desktop\ITS ACADEMY REPOS\Code Jam 2 Hangman\obj\Debug\net8.0\Code Jam 2 Hangman.dll
+C:\Users\jmfyexl\OneDrive - JM Family Enterprises\Desktop\ITS ACADEMY REPOS\Code Jam 2 Hangman\obj\Debug\net8.0\refint\Code Jam 2 Hangman.dll
+C:\Users\jmfyexl\OneDrive - JM Family Enterprises\Desktop\ITS ACADEMY REPOS\Code Jam 2 Hangman\obj\Debug\net8.0\Code Jam 2 Hangman.pdb
+C:\Users\jmfyexl\OneDrive - JM Family Enterprises\Desktop\ITS ACADEMY REPOS\Code Jam 2 Hangman\obj\Debug\net8.0\Code Jam 2 Hangman.genruntimeconfig.cache
+C:\Users\jmfyexl\OneDrive - JM Family Enterprises\Desktop\ITS ACADEMY REPOS\Code Jam 2 Hangman\obj\Debug\net8.0\ref\Code Jam 2 Hangman.dll
